@@ -63,8 +63,8 @@
   <body onselectstart="return false">
     <canvas id="cas">浏览器不支持canvas</canvas>
     <div id="labels"></div>
-    <div class="city"><img src="./city_2.png" alt="" /></div>
-    <img src="./moon.png" alt="" id="moon" style="visibility: hidden" />
+    <div class="city"><img src="./config/city_2.png" alt="" /></div>
+    <img src="./config/moon.png" alt="" id="moon" style="visibility: hidden" />
     <div id="labels"></div>
 
     <script>
@@ -131,9 +131,9 @@
             if (i < my_labels.length - 1) {
               setTimeout(() => {
                 labels.className = "hide";
-              }, 6000);
+              }, 5000);
             }
-          }, 6500 * (i + 1));
+          }, 5500 * (i + 1));
         }
 
         for (let i = 0; i < starCount; i++) {
